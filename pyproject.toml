@@ -1,0 +1,19 @@
+[project]
+name = "drions-study"
+version = "0.1.0"
+description = "Segmentação do disco óptico com U-Net++ em PyTorch CPU-only"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "torch @ https://download.pytorch.org/whl/cpu/torch-2.2.1%2Bcpu-cp310-cp310-linux_x86_64.whl",
+    "torchvision @ https://download.pytorch.org/whl/cpu/torchvision-0.17.1%2Bcpu-cp310-cp310-linux_x86_64.whl",
+    "segmentation-models-pytorch>=0.3.3",
+    "matplotlib>=3.10.1",
+    "scikit-learn>=1.6.1",
+    "opencv-python>=4.11.0.86",
+    "numpy>=1.26.4",
+    "ipython>=8.36.0",
+    "ipdb>=0.13.13",
+    "albumentations>=2.0.5",
+]
